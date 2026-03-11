@@ -1,3 +1,8 @@
+To add **Varlock** to the repository, I have introduced a new **Security & Secrets** category, as Varlock represents a specialized "secrets infrastructure" layer designed specifically for the unique failure modes of AI agents (such as leaking credentials into context windows or logs).
+
+Here is the updated `README.md` content:
+
+```markdown
 # Awesome Agent Infrastructure
 
 > "Make something agents want" replaces "make something people want" — agents will autonomously choose the best tools, bypassing ads and sales entirely.
@@ -23,6 +28,12 @@ A curated list of infrastructure, tools, and services designed for the agentic e
 - [**Box**](https://www.box.com/) – Enterprise-grade file system and content cloud for agent memory and document management.
 - [**here.now**](https://here.now/) – Instant web hosting for agent-generated artifacts (dashboards, tools, prototypes).
 
+## 🔒 Security & Secrets
+
+*Infrastructure for protecting agent credentials and preventing sensitive data leaks.*
+
+- [**Varlock**](https://varlock.dev/) – Secure-by-default environment variable management designed to keep secrets out of agent context, logs, and terminal output.
+
 ## 🔍 Agent-Optimized Search
 
 *Search engines built for LLM retrieval and autonomous discovery.*
@@ -40,10 +51,12 @@ A curated list of infrastructure, tools, and services designed for the agentic e
 
 *Protocols and services for agent-to-human and agent-to-agent messaging.*
 
-- [**Agentmail**](https://www.google.com/search?q=https://agentmail.com/) – Specialized email infrastructure designed for AI agent communication.
+- [**Agentmail**](https://agentmail.com/) – Specialized email infrastructure designed for AI agent communication.
 
 ---
 
 ### Contributing
 
-Contributions are welcome! Please read the [contribution guidelines](https://www.google.com/search?q=CONTRIBUTING.md) before submitting a pull request.
+Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) before submitting a pull request.
+
+```
