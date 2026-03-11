@@ -1,8 +1,3 @@
-To add **Varlock** to the repository, I have introduced a new **Security & Secrets** category, as Varlock represents a specialized "secrets infrastructure" layer designed specifically for the unique failure modes of AI agents (such as leaking credentials into context windows or logs).
-
-Here is the updated `README.md` content:
-
-```markdown
 # Awesome Agent Infrastructure
 
 > "Make something agents want" replaces "make something people want" — agents will autonomously choose the best tools, bypassing ads and sales entirely.
@@ -21,10 +16,11 @@ A curated list of infrastructure, tools, and services designed for the agentic e
 - [**Modal**](https://modal.com/) – High-performance serverless compute for AI models and data-intensive tasks.
 - [**Cloudflare**](https://www.cloudflare.com/) – Global edge network for low-latency agent logic and sandboxed workers.
 
-## 📁 File Systems & Memory
+## 📁 File Systems, Databases & Memory
 
-*Storage and hosting specialized for agent artifacts and persistent state.*
+*Storage and state management specialized for agent artifacts and persistent memory.*
 
+- [**Neon**](https://neon.com/use-cases/ai-agents) – Serverless Postgres built for agents to autonomously provision, branch, and manage databases via API.
 - [**Box**](https://www.box.com/) – Enterprise-grade file system and content cloud for agent memory and document management.
 - [**here.now**](https://here.now/) – Instant web hosting for agent-generated artifacts (dashboards, tools, prototypes).
 
@@ -32,7 +28,7 @@ A curated list of infrastructure, tools, and services designed for the agentic e
 
 *Infrastructure for protecting agent credentials and preventing sensitive data leaks.*
 
-- [**Varlock**](https://varlock.dev/) – Secure-by-default environment variable management designed to keep secrets out of agent context, logs, and terminal output.
+- [**Varlock**](https://varlock.dev/) – Secure-by-default environment variable management designed to keep secrets out of agent context and logs.
 
 ## 🔍 Agent-Optimized Search
 
@@ -58,5 +54,3 @@ A curated list of infrastructure, tools, and services designed for the agentic e
 ### Contributing
 
 Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) before submitting a pull request.
-
-```
